@@ -1,0 +1,32 @@
+#roses{
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    width: 200px;
+    transition: transform 5.25s ease;
+    cursor: -webkit-zoom-in;
+}
+img:active{
+    -webkit-transition: scale(2);
+    transform: scale(2);
+    cursor: -webkit-zoom-out;
+}
+
+.close{
+position: absolute;
+right:10px;
+top: 10px;
+padding: 10px 14px 10px 14px;
+}
+.close:hover{
+    background-color: rgb(170, 219, 219);
+    color: rgb(58, 53, 53);
+}
+figcaption{
+    text-align: center;
+    color: rgb(116, 37, 9);
+}
+.flower{
+    height: 301px;
+}
